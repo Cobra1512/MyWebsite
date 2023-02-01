@@ -1,0 +1,162 @@
+.banner {
+    background-color: rgb(102, 102, 25);
+    height:200px;
+    color:aqua;
+    /* class selector used */
+}
+div {
+    font-style: italic;
+}
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    /* element selector used */
+    /* font family was changed */
+  }
+  
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    /* background color and text-alignment  was changed */
+  }
+  
+.banner {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    /* font size and font weight was altered */
+  }
+ * {
+    text-align: right;
+    /* universal selector was used */
+}
+h1, h2, h3, h4 {
+    font-size: 35px;
+}
+h1, h2, h3 , h4 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    border: 3px solid red;
+    border-radius: 10px;
+    /* cool stuff innit? */
+    /* margins were changed */
+}
+article {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    /* paddings were changed */
+}
+.logo {
+    background-image: url("logo.png");
+    background-position: left top;
+    max-width: 100%;
+    max-height: 100%;
+    /* logo image inserted using CSS */
+}
+p.photo {
+    background-image: url("planets.jpeg");
+    /* picture of myself was inserted using CSS */
+
+}
+.banner {
+    font-size: 100px;
+    color: rgb(90, green, blue);
+    /* cool stuff innit? 2 */
+    background-image: url("letscode.jpeg");
+    background-repeat: no-repeat;
+    image-rendering: crisp-edges;
+    background-size: 425px 200px;
+    /* banner image was added, image rendered and size of an was changed */
+}
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: underline;
+    color: black;
+    font-size: 18px;
+    transition: all 0.2s;
+    /* buttons were created for the menu links */
+  }
+  
+  .menu a:hover {
+    background-color: red;
+  }
+  
+  .menu a.active {
+    background-color: blue;
+    color: white;
+    /* background color function used to show the status of link */
+  }
+  
+  .menu a:visited {
+    color: green;
+    /* menu links change the status and change color when active, visited and hover */
+  }
+  #grading {
+    color: black;
+    /* id selector was used */
+  }
+  a[href="mailto:info@naturallyinspired.com"] {
+    color: red;
+    /* attribute selector was used */
+  }
+  p::first-line {
+    color: blue;
+    text-transform: uppercase;
+    /* pseudo-class selector was used */ 
+  }
+  * {
+    list-style-type: none;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:black;
+    color:aqua;
+  }
+  
+  .contacts, .categories, .quick_links {
+    width: 30%;
+    text-align: center;
+  }
+  
+  h5 {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color:aqua;
+  }
+  
+  .map {
+    width: 40%;
+    height: 200px;
+  }
+  p.nature {
+    background-image: url("nature.jpeg");
+  }
+  
